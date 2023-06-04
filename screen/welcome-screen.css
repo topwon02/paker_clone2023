@@ -1,0 +1,47 @@
+.welcome{
+  margin-top: 100px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.welcome h1{
+  font-size:30px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.welcome h4{
+  font-size:15px;
+  opacity: 0.6;
+}
+
+.login-form{
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+
+.login-form input{
+  font-size: 18px;
+  border: none;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.login-form input[type="text"] {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.login-form input[type="submit"] {
+  background-color: #b2213b;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius:5px;
+}
+
+.login-form a{
+  text-align: center;
+  text-decoration: none;
+  font-size:13px;
+  color: rgba(0,0,0,0.6);
+}

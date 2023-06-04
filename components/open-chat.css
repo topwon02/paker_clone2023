@@ -1,0 +1,76 @@
+.open-chat{
+  margin: 20px 20px 10px 20px;
+  padding-bottom: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.open-chat__column{
+  display:flex;
+  flex-direction: column;
+}
+
+#subtitle{
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+
+.open-chat__column__members{
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.open-chat__column__members img{
+  width:20px;
+  height:20px;
+  border-radius: 50%;
+}
+
+.open-chat__column:first-child span:last-child{
+  opacity:0.7;
+  font-size:15px;
+}
+
+.open-chat__column__members span:last-child{
+  opacity:0.7;
+  font-size:10px;
+  color:#ff7dcd;
+}
+
+
+.divider{
+  width:1px;
+  height:14px;
+  margin:0 4px;
+  background-color: black;
+}
+
+.open-chat__column:last-child{
+  position: relative;
+}
+
+.open-chat__column:last-child img{
+  width:100px;
+  height:100px;
+  border-radius: 10px;
+  border:1px solid black;
+}
+
+.count-likes{
+  color:white;
+  font-size:10px;
+  padding:5px 10px;
+  background-color: #6a6b76;
+  border-radius: 20px;
+  position: absolute;
+  bottom:3px;
+  right:5px;
+}
+
+.count-likes i{
+  margin-right: 3px;
+}

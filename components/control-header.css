@@ -1,0 +1,39 @@
+.control-header{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  padding:30px 20px 15px 20px;
+}
+
+.control-header__column{
+  font-size: 20px;
+  width:33%;
+}
+
+.control-header__column:last-child{
+  position: relative;
+}
+
+.control-header__column:last-child i{
+  position: absolute;
+  right:0;
+  bottom:-10px;
+}
+
+.control-header__column:nth-child(2){
+  display:flex;
+  justify-content: center;
+}
+
+.control-header__column:nth-child(2) span{
+  font-weight: 600;
+}
+
+#what{
+  position: absolute;
+  right:0;
+}
+

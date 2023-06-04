@@ -1,0 +1,14 @@
+.recommended-friends{
+  margin-top: 30px;
+  position: relative;
+  padding: 0 20px;
+  color: #7f7f7f;
+}
+
+.recommended-friends span{
+  font-size: 23px;
+  text-align: center;
+  display:block;
+  padding: 100px 0 100px 0;
+  border-bottom: 2px solid #e0e0e0;
+}

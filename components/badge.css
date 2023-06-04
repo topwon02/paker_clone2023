@@ -1,0 +1,71 @@
+@keyframes movingbadge{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: rotateY(360deg);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+@keyframes jumpingbadge{
+  0%{
+    transform: none;
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+  75%{
+    transform: translateY(0);
+  }
+  100%{
+    transform: none;
+  }
+}
+
+.badge{
+  width:18px;
+  height:18px;
+  border-radius: 50%;
+  background-color:tomato;
+  color:white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  z-index:3;
+  position: absolute;
+  top:-6px;
+  right:-8px;
+}
+
+.badge-turning{
+  animation: movingbadge 2s ease-in-out infinite;
+}
+
+.badge--jumping{
+  animation: jumpingbadge 2s ease-in-out infinite;
+}
+
+.badge-etc{
+  width:6px;
+  height:6px;
+}
+
+.badge-chatcount{
+  position: relative;
+  right:-20px;
+  top:10px;
+  font-size:8px;
+}
+
+.badge__setting{
+  position: relative;
+  top:1px;
+  font-size:8px;
+}
+
+.badge span{
+  font-size:8px;
+}

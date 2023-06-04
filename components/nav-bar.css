@@ -1,0 +1,43 @@
+.nav-bar-box{
+  width:100%;
+  position:fixed;
+  bottom:0px;
+}
+.nav-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e0e0e0;
+  padding: 20px 50px;
+}
+
+.nav-bar__list i{
+  color:black;
+  font-size: 22px;
+}
+
+.nav-bar__list{
+  position: relative;
+}
+
+@keyframes turningetc{
+  0%{
+    transform: none;
+  }
+  25%{
+    transform: rotateZ(90deg);
+  }
+  50%{
+    transform: rotateZ(180deg);
+  }
+  75%{
+    transform: rotateZ(270deg);
+  }
+  100%{
+    transform: rotateZ(360deg);
+  }
+}
+
+.nav-bar__list:last-child i{
+  animation: turningetc 2s ease-in-out infinite;
+}

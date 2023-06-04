@@ -1,0 +1,23 @@
+#friends-a{
+  display:block;
+  background-color: #fafafa;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 30px;
+}
+
+.fa-circle-info{
+  margin-right: 10px;
+  opacity:0.3;
+}
+
+.fa-chevron-right{
+  margin-left: 10px;
+  opacity:0.3;
+}
+
+.just-line{
+  margin: 0 20px;
+  height:2px;
+  background-color: #e0e0e0;
+}

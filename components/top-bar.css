@@ -1,0 +1,33 @@
+.top-bar{
+  width:100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  background-color: white;
+  padding: 5px 3px;
+}
+
+.top-bar__column{
+  width:33%;
+}
+
+.top-bar__column:first-child{
+  padding-left: 5px;
+}
+
+.top-bar__column:nth-child(2){
+  display:flex;
+  justify-content: center;
+  font-weight: 800;
+}
+
+.top-bar__column:last-child {
+  display:flex;
+  justify-content: flex-end;
+}
+
+.top-bar__column:last-child i{
+  padding-right: 5px;
+}

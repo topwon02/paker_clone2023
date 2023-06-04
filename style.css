@@ -1,0 +1,31 @@
+@import "components/top-bar.css";
+@import "components/screen-header.css";
+@import "components/user-info.css";
+@import "components/category-header.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/open-chat.css";
+@import "components/control-header.css";
+@import "components/chat-time.css";
+@import "components/mediaquery.css";
+
+@import "screen/welcome-screen.css";
+@import "screen/friends.css";
+@import "screen/find.css";
+@import "screen/settings.css"; 
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Nunito', sans-serif;
+  padding-bottom: 65px;
+  padding-top: 21px;
+}
+
+a{
+  color:black;
+  text-decoration: none;
+}

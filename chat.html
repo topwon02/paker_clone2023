@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>You Are Awesome!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="chat-screen-color">
+  <div class="top-bar">
+    <div class="top-bar__column">SKT</div>
+    <div class="top-bar__column">14:19</div>
+    <div class="top-bar__column"><i class="fa-solid fa-wifi"></i><i class="fa-solid fa-battery-three-quarters"></i>
+    </div>
+  </div>
+  <div class="control-header">
+    <div class="control-header__column"><a href="chats.html"><i class="fa-solid fa-chevron-left"></i></a></div>
+    <div class="control-header__column"><span>Flash</span></div>
+    <div class="control-header__column"><i id="what" class="fa-solid fa-bars"></i>
+    </div>
+  </div>
+  <main class="main-chat">
+    <div class="chat__timestamp">
+      Sunday, June 4, 2023
+    </div>
+
+    <div class="messege-row">
+      <img src="images/flash.jpg">
+      <div class="messege-row__content">
+        <span class="messege-row__author">Flash</span>
+        <div class="messege-row__info">
+          <span class="messege-row__bubble">Can you take pictures of my girlfriend?</span>
+          <span class="messege-row__time">14:17</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="send-row">
+      <span class="send-row__time">14:19</span>
+      <span class="send-row__bubble">I'll have a look at the old schedule.</span>
+    </div>
+
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fa-regular fa-square-plus fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a messege..." />
+      <i class="fa-regular fa-face-smile fa-lg"></i>
+      <button>
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+  <div id="media-query">
+    <span>Your screen is big!</span>
+  </div>
+
+  <script src="https://kit.fontawesome.com/de8ab32f1e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
